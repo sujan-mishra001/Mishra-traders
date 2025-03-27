@@ -40,10 +40,33 @@ export default function MediaPage() {
             <section>
                 <h2 className="text-2xl font-bold mb-4">Videos</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
-                <iframe className="h-auto w-full" src="https://www.youtube.com/embed/GZHb1C5I_tk?si=Tqn8LHPxhQ0HZdcI" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <iframe className="h-auto w-full" src="https://www.youtube.com/embed/4fiX7AEQXRc?si=XhkFI1o7i8KOe8uy" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <iframe className="h-auto w-full" src="https://www.youtube.com/embed/z9jji3p9uRE?si=IU9Pp39N0hyCR72Q&amp;start=54" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
+                      <iframe
+  className="h-auto w-full"
+  src="https://www.youtube.com/embed/GZHb1C5I_tk?si=Tqn8LHPxhQ0HZdcI"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerPolicy="strict-origin-when-cross-origin"
+  allowFullScreen
+></iframe>
+
+<iframe
+  className="h-auto w-full"
+  src="https://www.youtube.com/embed/z9jji3p9uRE?si=IU9Pp39N0hyCR72Q&amp;start=54"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerPolicy="strict-origin-when-cross-origin"
+  allowFullScreen
+></iframe>
+
+<iframe
+  className="h-auto w-full"
+  src=" https://www.youtube.com/embed/4fiX7AEQXRc?si=XhkFI1o7i8KOe8uy"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerPolicy="strict-origin-when-cross-origin"
+  allowFullScreen
+></iframe>
+     </div>
             </section>
         </div>
     );
