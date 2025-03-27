@@ -32,7 +32,7 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold">Get in Touch</h3>
           <p className="mt-2 text-gray-400">Arjundhara-6, Jhapa, Nepal</p>
-          <p className="text-gray-400">Phone: +977 9812345678</p>
+          <p className="text-gray-400">Phone: +977 9804906236 / +977 9804042126 </p>
           <p className="text-gray-400">Email: mishrabrothers@example.com</p>
           <div className="flex space-x-4 mt-4">
             <a href="#" className="text-gray-400 hover:text-white text-xl"><Facebook /></a>
